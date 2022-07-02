@@ -5,6 +5,10 @@
 </head>
 
 <body>
+	<form>
+		<input type="text" name="todo" />
+		<input type="submit" value="Add Todo" />
+	</form>
 	Here are the list of your todos:
 	${todos}
 	<br>
